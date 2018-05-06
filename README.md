@@ -26,5 +26,11 @@ Uncomment
         <property name="password" value="${jdbc.password}"/>
     </bean>
 ```
-and add DataBase 
+and add DataBase with your changes in database.properties file
 
+```
+ jdbc.driverClassName=com.mysql.jdbc.Driver
+jdbc.url=jdbc:mysql://localhost:3306/CHANGE_NAME_OF_DB
+jdbc.username=CHANGE_USERNAME
+jdbc.password=CHANGE_PASSWORD
+```

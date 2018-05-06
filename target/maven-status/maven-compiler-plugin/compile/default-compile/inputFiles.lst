@@ -1,0 +1,11 @@
+/home/jcoh/prog/git/spring_twitch_log/src/main/java/ua/com/jcoh/service/SecurityService.java
+/home/jcoh/prog/git/spring_twitch_log/src/main/java/ua/com/jcoh/validator/UserValidator.java
+/home/jcoh/prog/git/spring_twitch_log/src/main/java/ua/com/jcoh/model/User.java
+/home/jcoh/prog/git/spring_twitch_log/src/main/java/ua/com/jcoh/service/SecurityServiceImpl.java
+/home/jcoh/prog/git/spring_twitch_log/src/main/java/ua/com/jcoh/dao/UserDao.java
+/home/jcoh/prog/git/spring_twitch_log/src/main/java/ua/com/jcoh/service/UserServiceImpl.java
+/home/jcoh/prog/git/spring_twitch_log/src/main/java/ua/com/jcoh/dao/RoleDao.java
+/home/jcoh/prog/git/spring_twitch_log/src/main/java/ua/com/jcoh/model/Role.java
+/home/jcoh/prog/git/spring_twitch_log/src/main/java/ua/com/jcoh/controller/UserController.java
+/home/jcoh/prog/git/spring_twitch_log/src/main/java/ua/com/jcoh/service/UserService.java
+/home/jcoh/prog/git/spring_twitch_log/src/main/java/ua/com/jcoh/service/UserDetailsServiceImpl.java

@@ -1,0 +1,11 @@
+ua/com/jcoh/service/UserService.class
+ua/com/jcoh/service/SecurityServiceImpl.class
+ua/com/jcoh/model/User.class
+ua/com/jcoh/service/SecurityService.class
+ua/com/jcoh/model/Role.class
+ua/com/jcoh/dao/RoleDao.class
+ua/com/jcoh/service/UserDetailsServiceImpl.class
+ua/com/jcoh/validator/UserValidator.class
+ua/com/jcoh/service/UserServiceImpl.class
+ua/com/jcoh/dao/UserDao.class
+ua/com/jcoh/controller/UserController.class

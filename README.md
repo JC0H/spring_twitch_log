@@ -16,7 +16,7 @@ Website for streamer - insanity , where users can register and win special gifts
 ## Getting Started
 
 Get a copy of project and run on your local machine. 
-Uncomment and add DataBase 
+Uncomment 
 
 ```
  <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
@@ -26,5 +26,5 @@ Uncomment and add DataBase
         <property name="password" value="${jdbc.password}"/>
     </bean>
 ```
-
+and add DataBase 
 

@@ -75,9 +75,7 @@
 
 <body>
 
-    <a href="#" ><img src="http://ttv-api.s3.amazonaws.com/assets/connect_dark.png" class="twitch-connect" /></a>
-
-    <h4 class="text-center"><a href="${contextPath}/registration">Rejestracja</a></h4>
+<h4 class="text-center"><a href="#"><img src="http://ttv-api.s3.amazonaws.com/assets/connect_dark.png" class="twitch-connect" /></a></h4>
 
 
 <!-- /container -->

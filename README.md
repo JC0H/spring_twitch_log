@@ -1,6 +1,6 @@
 # spring_twitch_log
 
-Website for streamer - insanity , where users can register and win special gifts, using Spting and deployed on Heroku. This project above are work in progress. https://insanitytv.herokuapp.com/
+Website for streamer - insanity , where users can register and win special gifts, using Spring and deployed on Heroku. This project above are work in progress. https://insanitytv.herokuapp.com/
 
 ## Built With
 

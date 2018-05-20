@@ -103,6 +103,7 @@
 
         <center>
             <a href="#"><img src="http://ttv-api.s3.amazonaws.com/assets/connect_dark.png" class="twitch-connect" /></a>
+            <button id="btn-logout" class="btn btn-danger twitch-disconnect btn-block" type="submit">Logout</button>
         </center>
 
         <div id="login-info">

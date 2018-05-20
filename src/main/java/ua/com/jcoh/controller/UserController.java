@@ -31,7 +31,7 @@ public class UserController {
     @Autowired
     private UserValidator userValidator;
 
-    @RequestMapping(value = "/registration", method = RequestMethod.GET)
+    @RequestMapping(value = {"/", "/registration"}, method = RequestMethod.GET)
     public String registration(Model model) {
         model.addAttribute("userForm", new User());
 
@@ -53,7 +53,7 @@ public class UserController {
         return "redirect:/welcome";
     }
 
-    @RequestMapping(value = {"/", "/welcome"}, method = RequestMethod.GET)
+    @RequestMapping(value = "/welcome", method = RequestMethod.GET)
     public String welcome(Model model) {
         return "welcome";
     }

@@ -18,7 +18,6 @@
         <property name="password" value="${jdbc.password}"/>
     </bean>-->
 
-
     <bean class="java.net.URI" id="dbUrl">
         <constructor-arg value="#{systemEnvironment['CLEARDB_DATABASE_URL']}"/>
     </bean>

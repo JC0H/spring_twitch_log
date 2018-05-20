@@ -69,7 +69,27 @@
 
             login();
         })
-    })</script>
+
+        var logout = function()
+        {
+            Twitch.logout(function(error) {
+                $('.twitch-connect').show();
+
+                $('strong').text('');
+                $('#picture').attr('src','');
+                $('#visit').text('').attr('href','#');
+
+                $('#login-info').hide();
+            });
+        }
+
+        $('.twitch-disconnect').click(function(e) {
+            e.preventDefault();
+
+            logout();
+        })
+    })
+    </script>
 
 </head>
 
@@ -81,8 +101,7 @@
     <div class="container">
 
 
-        <center><h1 class="mb-1">Registration</h1>
-
+        <center>
             <a href="#"><img src="http://ttv-api.s3.amazonaws.com/assets/connect_dark.png" class="twitch-connect" /></a>
         </center>
 
@@ -125,7 +144,9 @@
                 </spring:bind>
 
                 <button class="btn btn-lg btn-primary btn-block" type="submit">OK</button>
+                <button id="btn-logout" class="btn btn-danger twitch-disconnect btn-block" type="submit">Logout</button>
             </form:form>
+
 
         </div>
 

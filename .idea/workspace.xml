@@ -6,11 +6,18 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b325ad76-48cf-46dd-9890-c80ec818099d" name="Default" comment="">
+    <list default="true" id="b325ad76-48cf-46dd-9890-c80ec818099d" name="Default" comment="adding tw1tch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/jcoh/controller/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/ua/com/jcoh/controller/UserController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/com/jcoh/validator/UserValidator.java" afterPath="$PROJECT_DIR$/src/main/java/ua/com/jcoh/validator/UserValidator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-data.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-data.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/com/jcoh/validator/UserValidator.class" afterPath="$PROJECT_DIR$/target/classes/ua/com/jcoh/validator/UserValidator.class" />
       <change beforePath="$PROJECT_DIR$/target/spring_twitch_log.war" afterPath="$PROJECT_DIR$/target/spring_twitch_log.war" />
+      <change beforePath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/appconfig-data.xml" afterPath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/appconfig-data.xml" />
+      <change beforePath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/classes/ua/com/jcoh/validator/UserValidator.class" afterPath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/classes/ua/com/jcoh/validator/UserValidator.class" />
       <change beforePath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/views/registration.jsp" afterPath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/views/registration.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/views/welcome.jsp" afterPath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/views/welcome.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,8 +68,8 @@
       <file leaf-file-name="appconfig-data.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-data.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+            <state relative-caret-position="105">
+              <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="18" selection-end-column="14" />
               <folding>
                 <element signature="n#prop#0;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
                 <element signature="n#prop#1;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
@@ -81,8 +88,18 @@
       <file leaf-file-name="registration.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1230">
-              <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state relative-caret-position="122">
+              <caret line="44" column="62" lean-forward="false" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/jcoh/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -121,10 +138,10 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/com/jcoh/validator/UserValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/com/jcoh/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/com/jcoh/validator/UserValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/com/jcoh/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-data.xml" />
       </list>
@@ -196,82 +213,6 @@
             <path>
               <item name="spring_twitch_log" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring_twitch_log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_twitch_log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_twitch_log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_twitch_log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_twitch_log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_twitch_log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_twitch_log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_twitch_log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_twitch_log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_twitch_log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_twitch_log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_twitch_log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_twitch_log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ua" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jcoh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_twitch_log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_twitch_log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_twitch_log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_twitch_log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_twitch_log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_twitch_log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_twitch_log" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring_twitch_log" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -472,7 +413,7 @@
       <updated>1525592768911</updated>
       <workItem from="1525592770764" duration="6827000" />
       <workItem from="1525601620613" duration="33000" />
-      <workItem from="1526814114657" duration="2614000" />
+      <workItem from="1526814114657" duration="9876000" />
     </task>
     <task id="LOCAL-00001" summary="add UI + hibernate props">
       <created>1526815233207</created>
@@ -502,15 +443,77 @@
       <option name="project" value="LOCAL" />
       <updated>1526816360649</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding tw1tch">
+      <created>1526816759970</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526816759970</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adding view">
+      <created>1526817085453</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1526817085453</updated>
+    </task>
+    <task id="LOCAL-00007" summary="adding tw1tch">
+      <created>1526817455155</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1526817455155</updated>
+    </task>
+    <task id="LOCAL-00008" summary="background">
+      <created>1526817825716</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1526817825717</updated>
+    </task>
+    <task id="LOCAL-00009" summary="redirect to main page">
+      <created>1526819515027</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1526819515027</updated>
+    </task>
+    <task id="LOCAL-00010" summary="adding tw1tch">
+      <created>1526819777666</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1526819777666</updated>
+    </task>
+    <task id="LOCAL-00011" summary="adding tw1tch">
+      <created>1526820175936</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1526820175936</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adding tw1tch">
+      <created>1526821690285</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1526821690285</updated>
+    </task>
+    <task id="LOCAL-00013" summary="adding tw1tch">
+      <created>1526822138408</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1526822138408</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9474000" />
+    <option name="totallyTimeSpent" value="16736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1368" height="747" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -533,7 +536,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25227273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25227273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -556,7 +559,11 @@
     <MESSAGE value="add UI + hibernate props" />
     <MESSAGE value="security-config refactor" />
     <MESSAGE value="adding twitch" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding twitch" />
+    <MESSAGE value="adding view" />
+    <MESSAGE value="background" />
+    <MESSAGE value="redirect to main page" />
+    <MESSAGE value="adding tw1tch" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding tw1tch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -723,38 +730,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/jcoh/validator/UserValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/jcoh/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/6c4e7b34/424698f4-06fc-4524-bb3a-1874ca6557ad/heroku_2332ebe711e85f7.users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,18 +761,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/jcoh/validator/UserValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state relative-caret-position="122">
+          <caret line="44" column="62" lean-forward="false" selection-start-line="44" selection-start-column="62" selection-end-line="44" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/com/jcoh/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="52" column="35" lean-forward="false" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-data.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="105">
+          <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="18" selection-end-column="14" />
           <folding>
             <element signature="n#prop#0;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
             <element signature="n#prop#1;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />

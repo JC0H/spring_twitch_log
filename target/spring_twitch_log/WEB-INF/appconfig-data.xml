@@ -39,8 +39,15 @@
         </property>
         <property name="jpaProperties">
             <props>
-                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
-                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">${hibernate.hbm2ddl.auto}</prop>
+                <prop key="hibernate.dialect">${hibernate.dialect}</prop>
+                <prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+                <prop key="packagesToScan">${packagesToScan}</prop>
+                <prop key="hibernate.enable_lazy_load_no_trans">${hibernate.enable_lazy_load_no_trans}</prop>
+                <prop key="hibernate.connection.Charset ">${hibernate.connection.Charset}</prop>
+                <prop key="hibernate.connection.CharacterEncoding ">${hibernate.connection.CharacterEncoding}</prop>
+                <prop key="hibernate.connection.Useunicode ">${hibernate.connection.Useunicode}</prop>
+                <prop key="hibernate.c3p0.testOnBorrow">${hibernate.c3p0.testOnBorrow}</prop>
             </props>
         </property>
     </bean>

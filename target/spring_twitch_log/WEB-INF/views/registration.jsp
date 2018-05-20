@@ -81,7 +81,7 @@
     <div class="container">
 
 
-        <center><h1 class="mb-1">Regestration</h1>
+        <center><h1 class="mb-1">Registration</h1>
 
             <a href="#"><img src="http://ttv-api.s3.amazonaws.com/assets/connect_dark.png" class="twitch-connect" /></a>
         </center>

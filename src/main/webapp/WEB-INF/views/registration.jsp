@@ -71,7 +71,7 @@
         })
     })</script>
 
-</head>
+</head id="page-top">
 
 <body id="page-top">
 

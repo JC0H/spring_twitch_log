@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 /**
  * Controller for {@link ua.com.jcoh.model.User}'s pages.
  *
- * @author Eugene Suleimanov
+ * @author Andrii Androsiuk
  * @version 1.0
  */
 
@@ -31,7 +31,7 @@ public class UserController {
     @Autowired
     private UserValidator userValidator;
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = {"/","/registration"}, method = RequestMethod.GET)
     public String registration(Model model) {
         model.addAttribute("userForm", new User());
 

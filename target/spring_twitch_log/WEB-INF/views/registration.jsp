@@ -42,7 +42,7 @@
             });
         }
 
-        Twitch.init({clientId: '995qpwqikxulxngh6t3ak6fpse4edj'}, function(error, status) {
+        Twitch.init({clientId: '1vurum8ri4igxgk7oty6d3l047mtad'}, function(error, status) {
             if (status.authenticated) {
                 $('.twitch-connect').hide();
 
@@ -71,7 +71,7 @@
         })
     })</script>
 
-</head id="page-top">
+</head>
 
 <body id="page-top">
 

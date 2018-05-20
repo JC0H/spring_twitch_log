@@ -6,13 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b325ad76-48cf-46dd-9890-c80ec818099d" name="Default" comment="">
+    <list default="true" id="b325ad76-48cf-46dd-9890-c80ec818099d" name="Default" comment="adding twitch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-security.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-data.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-data.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" />
       <change beforePath="$PROJECT_DIR$/target/spring_twitch_log.war" afterPath="$PROJECT_DIR$/target/spring_twitch_log.war" />
       <change beforePath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/appconfig-data.xml" afterPath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/appconfig-data.xml" />
-      <change beforePath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/appconfig-security.xml" afterPath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/appconfig-security.xml" />
       <change beforePath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/views/registration.jsp" afterPath="$PROJECT_DIR$/target/spring_twitch_log/WEB-INF/views/registration.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,19 +63,33 @@
       <file leaf-file-name="appconfig-data.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-data.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="47" column="56" lean-forward="false" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="n#prop#0;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-                <element signature="n#prop#1;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-                <element signature="n#prop#2;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-                <element signature="n#prop#3;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-                <element signature="n#prop#4;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-                <element signature="n#prop#5;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-                <element signature="n#prop#6;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-                <element signature="n#prop#7;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-                <element signature="n#prop#8;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#0;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#1;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#2;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#3;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#4;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#5;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#6;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#7;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+                <element signature="n#prop#8;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+                <marker date="1526816047256" expanded="false" signature="795:818" ph="com.mysql.jdbc.Driver" />
+                <marker date="1526816047256" expanded="false" signature="858:869" ph="jdbc:mysql://localhost:3306/videolessons" />
+                <marker date="1526816047256" expanded="false" signature="914:930" ph="root" />
+                <marker date="1526816047256" expanded="false" signature="975:991" ph="1" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registration.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="73" column="6" lean-forward="false" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -117,8 +130,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/com/jcoh/validator/UserValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/com/jcoh/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-data.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-data.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp" />
       </list>
     </option>
@@ -465,7 +478,7 @@
       <updated>1525592768911</updated>
       <workItem from="1525592770764" duration="6827000" />
       <workItem from="1525601620613" duration="33000" />
-      <workItem from="1526814114657" duration="1654000" />
+      <workItem from="1526814114657" duration="2234000" />
     </task>
     <task id="LOCAL-00001" summary="add UI + hibernate props">
       <created>1526815233207</created>
@@ -481,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526815762146</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="security-config refactor">
+      <created>1526815787803</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1526815787803</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8514000" />
+    <option name="totallyTimeSpent" value="9094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1368" height="747" extended-state="6" />
@@ -508,7 +528,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -534,7 +554,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add UI + hibernate props" />
     <MESSAGE value="security-config refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="security-config refactor" />
+    <MESSAGE value="adding twitch" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding twitch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -744,14 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="73" column="21" lean-forward="false" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -768,20 +781,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/registration.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="73" column="6" lean-forward="false" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/appconfig-data.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="47" column="56" lean-forward="false" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="n#prop#0;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-            <element signature="n#prop#1;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-            <element signature="n#prop#2;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-            <element signature="n#prop#3;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-            <element signature="n#prop#4;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-            <element signature="n#prop#5;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-            <element signature="n#prop#6;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-            <element signature="n#prop#7;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
-            <element signature="n#prop#8;n#props#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#0;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#1;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#2;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#3;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#4;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#5;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#6;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#7;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#8;n#props#0;n#property#3;n#bean#2;n#beans#0;n#!!top" expanded="true" />
+            <marker date="1526816047256" expanded="false" signature="795:818" ph="com.mysql.jdbc.Driver" />
+            <marker date="1526816047256" expanded="false" signature="858:869" ph="jdbc:mysql://localhost:3306/videolessons" />
+            <marker date="1526816047256" expanded="false" signature="914:930" ph="root" />
+            <marker date="1526816047256" expanded="false" signature="975:991" ph="1" />
           </folding>
         </state>
       </provider>
